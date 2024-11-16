@@ -23,7 +23,21 @@ To run the project locally, you only need a web browser.
 
 ## Screenshots
 
-![Showcase for the app interface](screenshots\screenshot.png)
+### 1. Add Product Form
+
+![Add Product Form](screenshots/add-product-form.png)
+
+### 2. Product List Display
+
+![Product List](screenshots/product-list.png)
+
+### 3. Edit Product Form
+
+![Edit Product](screenshots/edit-product.png)
+
+### 4. Search Product Feature
+
+![Search Product](screenshots/search-product.png)
 
 ## Future Improvements
 
