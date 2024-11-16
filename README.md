@@ -23,7 +23,7 @@ To run the project locally, you only need a web browser.
 
 ## Screenshots
 
-!(images\screenshot.png)
+![Showcase for the app interface](images\screenshot.png)
 
 ## Future Improvements
 
