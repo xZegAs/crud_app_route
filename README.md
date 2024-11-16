@@ -52,4 +52,4 @@ This project is open source.
 
 ## Author
 
-- Ahmed Hassan - [Your GitHub Profile](https://github.com/xZegAs)
+- Ahmed Hassan - [GitHub Profile](https://github.com/xZegAs)
