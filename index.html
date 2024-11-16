@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Manager</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="text-center mb-4 text-primary">Product Manager</h1>
+
+      <!-- Input Section -->
+      <div id="inputSection" class="mb-4">
+        <div class="mb-3">
+          <label for="productName" class="form-label">Product Name :</label>
+          <input
+            type="text"
+            id="productName"
+            class="form-control"
+            placeholder="Enter product name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="productPrice" class="form-label">Product Price :</label>
+          <input
+            type="number"
+            id="productPrice"
+            class="form-control"
+            placeholder="Enter product price"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="productCategory" class="form-label"
+            >Product Category :</label
+          >
+          <input
+            type="text"
+            id="productCategory"
+            class="form-control"
+            placeholder="Enter product category"
+            list="categoryList"
+          />
+          <datalist id="categoryList">
+            <option value="TV"></option>
+            <option value="Laptop"></option>
+            <option value="Tablet"></option>
+            <option value="Mobile"></option>
+          </datalist>
+        </div>
+        <div class="mb-3">
+          <label for="productDescription" class="form-label"
+            >Product Description :</label
+          >
+          <textarea
+            id="productDescription"
+            class="form-control"
+            rows="3"
+            placeholder="Enter product description"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="productImage" class="form-label">Product Image :</label>
+          <input type="file" id="productImage" class="form-control" />
+        </div>
+        <button id="addButton" class="btn btn-primary" onclick="addProduct()">
+          Add Product
+        </button>
+        <button
+          id="updateButton"
+          class="btn btn-warning d-none"
+          onclick="updateProduct()"
+        >
+          Update Product
+        </button>
+      </div>
+
+      <!-- Search Section -->
+      <input
+        type="text"
+        id="searchInput"
+        class="form-control mb-3"
+        placeholder="Search for products..."
+        oninput="searchProduct()"
+      />
+
+      <!-- Product Display Section -->
+      <div id="productContainer" class="row py-5"></div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
