@@ -8,8 +8,8 @@
 
 .card img {
   width: 100%;
-  max-height: 200px; /* Fixed height for the image */
-  object-fit: contain; /* Ensures the image fits neatly */
+  max-height: 200px;
+  object-fit: contain;
   background-color: #f1f1f1;
 }
 
